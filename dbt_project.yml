@@ -1,0 +1,9 @@
+name: "poc-project"
+version: "1.0"
+config-version: 2
+
+profile: "default"
+
+models:
+  ods:
+    materialized: table
