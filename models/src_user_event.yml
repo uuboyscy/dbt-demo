@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: user
+    database: dbt
+    schema: raw
+    tables:
+      - name: user_source_1
+      - name: user_source_2
+
+  - name: user_event
+    database: dbt
+    schema: raw
+    tables:
+      - name: user_event_source_1
+      - name: user_event_source_2
+
+  - name: country
+    database: dbt
+    schema: raw
+    tables:
+      - name: country_source_1
+      - name: country_source_2
