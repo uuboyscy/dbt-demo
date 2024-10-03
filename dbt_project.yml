@@ -6,4 +6,8 @@ profile: "default"
 
 models:
   poc_project:
-    materialized: table
+    # materialized: table
+    stg:
+      schema: stg
+    dwd:
+      schema: dwd
