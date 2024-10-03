@@ -8,4 +8,4 @@ default:
       password: howdoyouturnthison
       port: 5432
       dbname: dbt
-      schema: public
+      schema: raw
