@@ -11,3 +11,5 @@ models:
       schema: stg
     dwd:
       schema: dwd
+    mart:
+      schema: mart
