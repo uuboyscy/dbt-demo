@@ -17,6 +17,9 @@ dbt docs serve
 ## Sample models
 Rename following folder to `models`.
 1. models_basic
-    > Basic sample
+    > Basic sample.
 2. models_documentation
-    > How to configure documentation
+    > How to configure documentation.
+3. models_macros_docs
+    > Maintain common docs using macros. \
+    > Folder `macros/` is required.
