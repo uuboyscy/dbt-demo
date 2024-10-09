@@ -7,20 +7,15 @@ models:
       It pulls data from the `final_user`, `final_user_event`, and `final_country` models and joins them to create a detailed dataset.
     columns:
       - name: event_id
-        description: >
-          The unique identifier for each event.
+        description: "{{ event_id_description }}"
       - name: user_id
-        description: >
-          The unique identifier for each user associated with the event.
+        description: "{{ user_id_description }}"
       - name: user_name
-        description: >
-          The name of the user associated with the event.
+        description: "{{ user_name_description }}"
       - name: event_type
-        description: >
-          The type/category of the event performed by the user.
+        description: "{{ event_type_description }}"
       - name: event_time
-        description: >
-          The timestamp when the event occurred.
+        description: "{{ event_time_description }}"
       - name: country_name
         description: >
           The name of the country associated with the user. This is left-joined from the `country_data` dataset based on the user's country ID.
