@@ -22,4 +22,4 @@ Rename following folder to `models`.
     > How to configure documentation.
 3. models_macros_docs
     > Maintain common docs using macros. \
-    > Folder `macros/` is required.
+    > Folder `docs/` is required.
