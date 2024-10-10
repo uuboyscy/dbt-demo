@@ -4,6 +4,10 @@ config-version: 2
 
 profile: "default"
 
+model-paths: ["models"]
+macro-paths: ["macros"]
+docs-paths: ["docs"]
+
 models:
   poc_project:
     # materialized: table

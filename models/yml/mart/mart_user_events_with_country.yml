@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: mart_user_events_with_country
+    description: >
+      This model combines user data, user events, and country information to provide a comprehensive view of user events along with their corresponding country.
+      It pulls data from the `final_user`, `final_user_event`, and `final_country` models and joins them to create a detailed dataset.
+    columns:
+      - name: event_id
+        description: "{{ doc('event_id_description') }}"
+      - name: user_id
+        description: "{{ doc('user_id_description') }}"
+      - name: user_name
+        description: "{{ doc('user_name_description') }}"
+      - name: event_type
+        description: "{{ doc('event_type_description') }}"
+      - name: event_time
+        description: "{{ doc('event_time_description') }}"
+      - name: country_name
+        description: >
+          The name of the country associated with the user. This is left-joined from the `country_data` dataset based on the user's country ID.
